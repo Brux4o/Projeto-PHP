@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Cadastro de Cliente</h1>
+        <h3>Itens obrigatórios para finalizar cadastro (*).</h3>
+    </div>
+        <div class="cadastro_cliente">
+            <form action="#" method="get">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" 
+                placeholder="Nome (*)">
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" 
+                placeholder="Sobrenome (*)">
+                <p></p>
+
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha"
+                placeholder="Senha">
+                <label for="senha2">Confirmação senha: </label>
+                <input type="password" name="senha2"
+                placeholder="Senha (*)">
+                <label for="email">E-mail: </label>
+                <input type="text" name="email"
+                placeholder="E-mail (*)">
+                <p></p>
+
+                <label for="email">CPF: </label>
+                <input type="text" name="email"
+                placeholder="CPF (*)">
+                <label for="bairro">Bairro: </label>
+                <input type="text" name="bairro">
+                <label for="ncasa">Número: </label>
+                <input type="number" name="ncasa">
+                <p></p>
+
+                <label for="rua">Rua: </label>
+                <input type="text" name="rua">
+                <label for="cep">CEP: </label>
+                <input type="text" name="cep">
+                <p></p>
+
+                <label for="complemento">Complemento: </label>
+                <input type="text" name="complemento">
+
+                Estado:
+                <select name="estado" id="hr">
+                <option value="" selected></option>
+                <option value="PR">PR</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="SP">SP</option>
+                <option value="SC">SC</option>
+                </select>
+                <p></p>
+
+                <label for="telefone">Telefone: </label>
+                <input type="number" name="telefone"
+                placeholder="(43) 9 1234-5678 (*)">          
+                <p></p>
+
+                <p>Quais tipos de jogos você mais joga?</p>
+                <label for="fps">FPS</label>
+                <input type="checkbox" name="fps" id="1">
+                <label for="rpg">RPG</label>
+                <input type="checkbox" name="rpg" id="2">
+                <label for="sbv">Sobrevivência</label>
+                <input type="checkbox" name="sbv" id="3">
+                <label for="sm">Simulação</label>
+                <input type="checkbox" name="sm" id="4">
+                <label for="esp">Esportes</label>
+                <input type="checkbox" name="esp" id="5">
+                <label for="corrida">Corrida</label>
+                <input type="checkbox" name="corrida" id="6">
+
+                <p></p>
+                <p>Gostaria de receber promoções no e-mail?</p>
+                <label>Sim</label>
+                <input type="radio" name="estuda">
+                <label>Não</label>
+                <input type="radio" name="estuda">
+                <p></p>
+            </form>
+        </div> 
+    <div>
+        <h1>Cadastro Cartão</h1>
+    </div>
+        <div class="cadastro_cartao">
+            <form action="#" method="get">
+                <label for="nome">Nome do Titular: </label>
+                <input type="text" name="nome">
+                <p></p>
+                <label for="numero_cartao">Número do Cartão: </label>
+                <input type="text" name="numero_cartao">
+                <p></p>
+                <label for="cvc">CVC : </label>
+                <input type="password" name="cvc">
+                <p></p>
+                <label for="validade">Validade : </label>
+                <input type="text" name="validade">
+                <p></p>
+            </form>
+        </div>  
+        <br>
+        <div class="salvar_cadastro"></div>
+        <a href="login.html" class="botao_cadastro">Salvar</a>
+        </div>
+        <br>
+</body>
+</html>
