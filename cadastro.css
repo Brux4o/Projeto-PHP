@@ -1,0 +1,9 @@
+.botao_cadastro{
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    background-color: #2ae300;
+    outline: rgb(0, 86, 0);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
