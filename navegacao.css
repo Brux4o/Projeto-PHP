@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+ 
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-navegacao ul{
+    background-color: rgb(45, 44, 44) ;
+    text-align: center;
+}
+
+#menu-navegacao ul li{
+   display: inline;
+
+}
+
+#menu-navegacao ul li a{
+    color: #fff;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;  
+}
+
+/* troquei só a cor de fundo da letra, pois ficou mais bonito, para alterar a cor do bloco da letra como pedido é background-color: #a0f383*/ 
+#menu-navegacao ul li a:hover{
+    color: #a0f383;
+}
+
+#menu-navegacao ul li:last-child a{
+    float: right;
+    background-color: #1027d4;
+}
+
+.novidades{
+    text-align: center;
+    color: #84db65;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(45, 44, 44) ;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.texto_novidades{
+    text-align: center;
+    color: #a0f383;
+}
+
+.login{
+    color: #a0f383;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#letras_login{
+    color: #a0f383;
+}
+
+
+
